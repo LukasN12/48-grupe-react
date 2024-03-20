@@ -1,0 +1,21 @@
+.mainFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-top: 0.1rem solid #ccc;
+}
+
+.mainFooter .link {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: red;
+}
+
+.mainFooter .link:hover {
+    text-decoration: underline;
+}
+
+.mainFooter .copyright {
+    font-style: italic;
+}
